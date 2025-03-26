@@ -73,14 +73,15 @@ A feature-rich Todo application built with React, Redux Toolkit, and TypeScript.
 src/
 ├── components/
 │   ├── Auth/
-│   │   └── LoginForm.tsx
+│   │   └── Auth.tsx
 │   ├── Todo/
-│   │   ├── AddTask.tsx
-│   │   └── TaskList.tsx
+│   │   ├── task-dashboard.tsx
+│   │   ├── task-list.tsx
+│   │   └── task-form.tsx
 │   └── Weather/
 │       └── WeatherWidget.tsx
 ├── store/
-│   ├── index.ts
+│   ├── store.ts
 │   └── slices/
 │       ├── authSlice.ts
 │       ├── todoSlice.ts
